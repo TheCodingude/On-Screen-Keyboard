@@ -11,11 +11,11 @@ class FullSizedKeyboardGUI:
 
         # Define the keyboard layout
         keyboard_layout = [
-            ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'],
-            ['Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P'],
-            ['A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', ';'],
-            ['Z', 'X', 'C', 'V', 'B', 'N', 'M', ',', '.', '/'],
-            ['Shift', 'Space', 'Clear', 'Enter']
+            ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0'],
+            ['tab','Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P', '[', ']', '\\'],
+            ['caps lock','A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', ';', "'"],
+            ['shift' ,'Z', 'X', 'C', 'V', 'B', 'N', 'M', ',', '.', '/'],
+            ['Ctrl','win','Alt', 'Space', 'Ctrl', 'Alt', 'Fn']
         ]
 
         # Create and place buttons based on the layout
